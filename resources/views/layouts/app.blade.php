@@ -8,7 +8,7 @@
         @yield('head')
 
         <!-- Scripts -->
-        @vite([secure_asset('resources/css/app.css'), secure_asset('resources/js/app.js')])
+        @vite([asset('resources/css/app.css'), asset('resources/js/app.js')])
 
 
     </head>
